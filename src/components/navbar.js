@@ -9,7 +9,12 @@ export default function Navbar()
         <Link to="/" className="home">
             TO
         </Link>
-        <ul>
+      
+        <ul className="resume">
+            <CustomLink to='/resume'>Resume</CustomLink>
+        </ul>
+
+        <ul className="aboutContact">
             <CustomLink to='/about'>About</CustomLink>
             <CustomLink to='/contact'>Contact</CustomLink>
         </ul>

@@ -1,4 +1,10 @@
-export default function Home()
+function Home()
 {
-    return <h1>Home</h1>
+return (
+<div >
+<img src="./images/siteShot2.png" alt="" className="homeBody" />
+</div>
+)
 }
+
+export default Home;

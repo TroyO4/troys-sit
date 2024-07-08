@@ -2,20 +2,102 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  min-height: 100%;
   font-size: 20px;
 }
 
 .footer
 {
-  background-color: seagreen;
+  background-color: rgba(11, 193, 196, 0.552);
   color: white;
   width: 100%; 
-  position: absolute;
+  height: 22px;
+  position: fixed;
   bottom: 0; 
+  z-index: 100;
 }
 
-.home
+.footerText
 {
-  font-size: 4rem;
+  margin-top: 0px;
 }
+
+
+.homeBody
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: -35px;
+  position: relative;
+}
+
+.resumeHeader
+{
+  font-family:fantasy;
+  background-color: rgba(255, 183, 0, 0.598);
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 35px;
+  padding-top: 5px;
+  padding: 4px;
+}
+
+.resumeBody
+{
+  background-color: beige;
+  margin-top: -35px;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.aboutHeader
+{
+  font-family:fantasy;
+  background-color: rgba(255, 183, 0, 0.598);
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 35px;
+  padding-top: 5px;
+  padding: 4px;
+
+}
+
+.aboutBody
+{
+  background-color: beige;
+  margin-top: -35px;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.aboutText
+{
+  margin: 50px;
+}
+
+.contactHeader
+{
+  font-family:fantasy;
+  background-color: rgba(255, 183, 0, 0.598);
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 35px;
+  padding-top: 5px;
+  padding: 4px;
+}
+
+.contactText
+{
+  margin: 50px;
+}
+
+.contactBody
+{
+  background-color: beige;
+  margin-top: -35px;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+
+
