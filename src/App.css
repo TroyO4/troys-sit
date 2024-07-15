@@ -5,12 +5,13 @@
   font-size: 130%;
 }
 
+
 .footer
 {
   background-color: rgba(11, 193, 196, 0.552);
   color: white;
-  width: 100%; 
-  height: 3.5%;
+  width: 100vw; 
+  height: 3.7vh;
   position: fixed;
   bottom: 0;
   z-index: 100;
@@ -18,54 +19,52 @@
 
 .footerText
 {
-  margin-top: 0%;
+  margin-top: 0;
 }
 
 
 .homeBody
 {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  margin-top: -6%;
-  position: relative;
+  width: 100vw; 
+  height: 90vh;
+  position: center; 
 }
 
 .resumeHeader
 {
   font-family:fantasy;
   background-color: rgba(255, 183, 0, 0.598);
-  margin: 1%;
+  margin: 1.5vw;
   border-radius: 10px;
-  font-size: 130%;
-  padding: 1%;
+  font-size: 3vw;
+  padding: 0.3vw;
+  padding-top:1vw;
 }
 
 .resumeBody
 {
   background-color: beige;
-  margin-top: -5%;
   position: relative;
-  padding-bottom: 20%;
+  padding-bottom: 7vh;
 }
 
 .aboutHeader
 {
   font-family:fantasy;
   background-color: rgba(255, 183, 0, 0.598);
-  margin: 1%;
+  margin: 1.5vw;
   border-radius: 10px;
-  font-size: 130%;
-  padding: 1%;
+  font-size: 3vw;
+  padding: 0.3vw;
+  padding-top:1vw;
 
 }
 
 .aboutBody
 {
   background-color: beige;
-  margin-top: -5%;
   position: relative;
-  padding-bottom: 25%;
+  padding-bottom: 37vh;
 }
 
 .aboutText
@@ -77,10 +76,11 @@
 {
   font-family:fantasy;
   background-color: rgba(255, 183, 0, 0.598);
-  margin: 1%;
+  margin: 1.5vw;
   border-radius: 10px;
-  font-size: 130%;
-  padding: 1%;
+  font-size: 3vw;
+  padding: 0.3vw;
+  padding-top:1vw;
 }
 
 .contactText
@@ -91,9 +91,8 @@
 .contactBody
 {
   background-color: beige;
-  margin-top: -5%;
   position: relative;
-  padding-bottom: 57%;
+  padding-bottom: 54vh;
 }
 
 

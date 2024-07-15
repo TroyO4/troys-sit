@@ -2,16 +2,18 @@
     box-sizing: border-box;
 }
 
-
 .nav
 {
-  padding: 0 1.5%;
+  padding: 0 1.5vw;
   background-image: url("https://cdn.acodez.in/wp-content/uploads/2015/09/banner.jpg");
   position: relative;
+  height: 12vw;
+  width: 100vw;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position:0 -8.5vw;
   background-size: cover;
   font-family:fantasy;
+  font-size: 1.2vw;
   color: white;
   z-index: 100;
 }
@@ -19,22 +21,31 @@
 .resume
 {
   display: flex;
-  margin-top: -4%;
+  margin-top: -5.3vw;
+
 }
 
-.aboutContact
+.about
 {
-  display: grid;
-  gap: 2%;
   justify-content: flex-end;
-  margin-top: -25.5%;
+  display: grid;
+  margin-top: -14.3vw;
+}
+
+.contact
+{
+  justify-content: flex-end;
+  display: grid;
+  margin-top: -5.6vw;
 }
 
 .nav ul
 {
-  list-style:none;
+  list-style: none;
   padding: 2%;
   font-size: 200%;
+  align-items: center;
+
 }
 
 .nav a
@@ -44,6 +55,7 @@
   height: 100%;
   display: flex;
   align-items: center;
+
 }
 
 .nav li.active
@@ -54,11 +66,13 @@
 .nav li:hover
 {
   background-color: darkseagreen;
+  height: 3.4vw;
 }
 
 .home
 {
-  font-size: 350%;
+  font-size: 4vw;
   font-family: cursive;
-  margin-top: -1%;
+  margin-top: -3.4vw;
+  padding-left: 1.5vw;
 }

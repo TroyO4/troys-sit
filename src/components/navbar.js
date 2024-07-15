@@ -14,8 +14,10 @@ export default function Navbar()
             <CustomLink to='/resume'>Resume</CustomLink>
         </ul>
 
-        <ul className="aboutContact">
+        <ul className="about">
             <CustomLink to='/about'>About</CustomLink>
+        </ul>
+        <ul className="contact">
             <CustomLink to='/contact'>Contact</CustomLink>
         </ul>
     </nav>
